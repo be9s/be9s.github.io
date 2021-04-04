@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>init Blog - 建站小记</title>
+    <url>/site-history/init-blog-%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>国庆中秋双节同庆 愿阖家团圆，国泰民安！(´▽`ʃ💖ƪ)</p>
+</blockquote>
+<h2 id="本站起源-——-很久很久以前…"><a href="#本站起源-——-很久很久以前…" class="headerlink" title="本站起源 —— 很久很久以前…"></a>本站起源 —— 很久很久以前…</h2><p>沉浸在放假的喜悦中(づ￣ 3 ￣)づ，心血来潮的我建立了这个博客。经过查阅相关技术资料 and 一个晚上的尝试，本站于十月 1st 正(zhong)式(bang)上线！<br>这是本人的第一个博客，从〇开始木有经验(小白一个(‾◡◝))。凭着出生牛犊不怕虎的精神 <del>(HAO！很有精神！)</del>，写下这 myBlog 第一篇，心中即紧脏又兴奋。</p>
+<span id="more"></span>
+
+<h2 id="技术路线-——-谁是爹和娘"><a href="#技术路线-——-谁是爹和娘" class="headerlink" title="技术路线 —— 谁是爹和娘"></a>技术路线 —— 谁是爹和娘</h2><p>本站使用 <a href="https://hexo.io/">Hexo</a> + <a href="https://pages.github.com/">Github Page</a> 的技术组合，感谢每一位 developer (大神受我一拜_(:з)∠)_)，是你们让简单便捷且完全免费地建立本站成为可能。<br>有关建站的操作细节，网上的教程资料都已非常详尽，这里不再赘述(￣ y▽ ￣)╭。<br>主题我选择的是 <a href="https://github.com/next-theme/hexo-theme-next">NexT</a> (由默认换成了 Pisces)，这个主题用其官方的形容是 <strong>‘Elegant’</strong> ，简洁大方的风格也符合本人 <strong>‘Less is More’</strong> 的审美哲学。<del>好看吧。是吧是吧</del></p>
+<h2 id="发展规划-——-大圣此去欲何"><a href="#发展规划-——-大圣此去欲何" class="headerlink" title="发展规划 —— 大圣此去欲何"></a>发展规划 —— 大圣此去欲何</h2><p>目前对 Hexo 和 NexT 的配置还不熟悉，后期会逐步了解，进行更多的个性化配置。<br>如：文章分区 标签 个人信息 etc.<br>在功能方面的规划主要有：</p>
+<ul>
+<li><del>看板娘(在其他很多博客中看到过 很可爱 QwQ)</del></li>
+<li><del>网易云插件(老网抑云了)</del><br><em>补：为了维持简洁风格的统一 以上还是不加好了 ╮(╯▽╰)╭</em></li>
+<li>留言区 <del>真的有必要吗(笑</del></li>
+<li><del>想想大佬会加什么</del> 翻翻插件广场</li>
+<li>解决搜索引擎的收录问题</li>
+</ul>
+<p>另外可能的话，以后会换成自己的域名和服务器(主要阻力是 lan(^///^))</p>
+<h2 id="总结一下-——-bulabula"><a href="#总结一下-——-bulabula" class="headerlink" title="总结一下 —— bulabula"></a>总结一下 —— bulabula</h2><p>以上就是本站的诞生ヾ(≧▽≦*)o 希望自己可以笔耕不辍 <del>(针布戳)</del>，就算抱着完全没有人看的觉悟，也要让<del>她</del>它充实起来。For more information 请戳 -&gt; <strong><a href="/about">关于</a></strong></p>
+]]></content>
+      <categories>
+        <category>时间之外的往事</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 下 Node.js 和 npm 的升级</title>
+    <url>/tech/windows%E4%B8%8Bnode.js%E5%92%8Cnpm%E7%9A%84%E5%8D%87%E7%BA%A7/</url>
+    <content><![CDATA[<blockquote>
+<p>Node.js 在 Windows 下无法通过命令行升级，去官网下载最新版重装是唯一的方式。并且，当你重装 Node.js 时，npm 也会一并更新。推荐<strong>直接重装</strong>，除非特殊需求。</p>
+</blockquote>
+<h2 id="升级-Node-js"><a href="#升级-Node-js" class="headerlink" title="升级 Node.js"></a>升级 Node.js</h2><ol>
+<li><p>检查当前 node 版本</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></li>
+<li><p> 打开 <a href="https://nodejs.org/zh-cn/">Node.js 官网</a> 对比是否需要更新</p>
+<span id="more"></span></li>
+<li><p> 下载 LTS 最新版(推荐)</p>
+</li>
+<li><p> 安装</p>
+</li>
+</ol>
+<h2 id="升级-npm"><a href="#升级-npm" class="headerlink" title="升级 npm"></a>升级 npm</h2><blockquote>
+<p>推荐直接重装 Node.js，这也是 <a href="https://www.npmjs.com/get-npm">npm 官网</a> 推荐的安装/升级方式</p>
+</blockquote>
+<h3 id="正常升级方式"><a href="#正常升级方式" class="headerlink" title="正常升级方式"></a>正常升级方式</h3><ol>
+<li><p>检查当前 npm 版本</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
+<li><p>官方升级命令</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install npm@latest -g</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>如果报错 <code>npm ERR! code EEXIST</code> 先执行 <code>npm cache clean -f</code> 并再次尝试。如果没有解决请选择备选升级方式</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="备选升级方式"><a href="#备选升级方式" class="headerlink" title="备选升级方式"></a>备选升级方式</h3><ol>
+<li><p>将 Node.js 安装目录下的 <code>\node_modules\npm</code> 文件夹复制到另外的位置 如：<code>D:\npmTemp</code></p>
+</li>
+<li><p>删除 Node.js 安装目录下的 <code>npm npm.cmd npx npx.cmd</code> 文件 和 <code>\node_modules\npm</code> 文件夹</p>
+</li>
+<li><p>在 <code>D:\npmTemp\bin</code> 中打开 cmd 运行以下命令</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node npm-cli.js i -g npm@latest</span><br></pre></td></tr></table></figure>
+
+<p>npm 即可以顺利完成安装：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">D:\npmTemp\bin&gt;node npm-cli.js i -g npm@latest</span><br><span class="line">D:\Program Files\nodejs\npm -&gt; D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js</span><br><span class="line">D:\Program Files\nodejs\npx -&gt; D:\Program Files\nodejs\node_modules\npm\bin\npx-cli.js</span><br><span class="line">+ npm@6.14.8</span><br><span class="line">added 434 packages from 885 contributors in 40.387s</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>npm更改全局位置与换源</title>
+    <url>/tech/npm%E6%9B%B4%E6%94%B9%E5%85%A8%E5%B1%80%E4%BD%8D%E7%BD%AE%E4%B8%8E%E6%8D%A2%E6%BA%90/</url>
+    <content><![CDATA[<blockquote>
+<p>本文环境为 Windows</p>
+</blockquote>
+<h2 id="npm-更改全局位置"><a href="#npm-更改全局位置" class="headerlink" title="npm 更改全局位置"></a>npm 更改全局位置</h2><p>npm 全局位置即全局安装模块时的安装位置，默认为<code>C:\Users\xxx\AppData\Roaming\npm\node_modules</code>。</p>
+<p>更改命令如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm config set prefix &quot;D:\Program Files\nodejs&quot;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<p>如上修改后，全局模块会安装至<code>D:\Program Files\nodejs\node_modules\xxx</code></p>
+<blockquote>
+<p>更改 npm 缓存位置 <code>npm config set cache &quot;D:\Program Files\nodejs\node_cache&quot;</code></p>
+</blockquote>
+<h2 id="npm-换源"><a href="#npm-换源" class="headerlink" title="npm 换源"></a>npm 换源</h2><p>npm 默认安装源为<code>https://registry.npmjs.org/</code>，可以使用淘宝镜像以提升国内访问速度。有两种方式，可任选其一。</p>
+<h3 id="1-使用-cnpm"><a href="#1-使用-cnpm" class="headerlink" title="1. 使用 cnpm"></a>1. 使用 cnpm</h3><p>安装 cnpm</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<p>在安装模块时使用<code>cnpm install xxx</code>即可</p>
+<h3 id="2-修改默认源"><a href="#2-修改默认源" class="headerlink" title="2. 修改默认源"></a>2. 修改默认源</h3><p>修改命令如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm config set registry &quot;https:&#x2F;&#x2F;registry.npm.taobao.org&#x2F;&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="查看-npm-配置"><a href="#查看-npm-配置" class="headerlink" title="查看 npm 配置"></a>查看 npm 配置</h2><p>使用命令<code>npm config ls</code>可查看 npm 配置信息。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C:\&gt;npm config ls</span><br><span class="line">; cli configs</span><br><span class="line">metrics-registry &#x3D; &quot;https:&#x2F;&#x2F;registry.npm.taobao.org&#x2F;&quot;</span><br><span class="line">scope &#x3D; &quot;&quot;</span><br><span class="line">user-agent &#x3D; &quot;npm&#x2F;6.14.11 node&#x2F;v14.15.3 win32 x64&quot;</span><br><span class="line"></span><br><span class="line">; userconfig C:\Users\xxx\.npmrc &#x2F;&#x2F; 配置文件位置</span><br><span class="line">cache &#x3D; &quot;D:\\Program Files\\nodejs\\node_cache&quot; &#x2F;&#x2F; 缓存位置</span><br><span class="line">prefix &#x3D; &quot;D:\\Program Files\\nodejs&quot; &#x2F;&#x2F; 全局位置</span><br><span class="line">registry &#x3D; &quot;https:&#x2F;&#x2F;registry.npm.taobao.org&#x2F;&quot; &#x2F;&#x2F; 安装源</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>TIM清空消息列表</title>
+    <url>/tech/TIM%E6%B8%85%E7%A9%BA%E6%B6%88%E6%81%AF%E5%88%97%E8%A1%A8/</url>
+    <content><![CDATA[<p>TIM 是 QQ 的办公版，去除了很多无用的功能。然而在最新版(3.3.0)的 TIM 中却没有清空消息列表的功能，并且在清空消息记录后消息列表中会出现大量的空对话。<br>目前为止，手动清空消息列表的方法为：</p>
+<ol>
+<li>关闭 TIM</li>
+<li>删除<code>C:\Users\xxx\Documents\Tencent Files\QQ号\Info.db</code>文件</li>
+</ol>
+<blockquote>
+<p>再次登录时，TIM 会自动同步少量消息，手动删除即可。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>tim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微软双拼之自动扩展到全拼</title>
+    <url>/tech/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC%E4%B9%8B%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E6%8B%BC/</url>
+    <content><![CDATA[<p>在微软拼音的双拼模式下，有一个<del>不为人知</del>设置项——自动扩展到全拼</p>
+<p><img data-src="/images/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC_%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E6%8B%BC.png"></p>
+<p>刚体验双拼的同学可能会认为开启此项后可以同时输入全拼和双拼，然而实际的体验是</p>
+<span id="more"></span>
+
+<ol>
+<li><strong>关闭</strong>自动扩展到全拼 输入<code>ni&#39;hc</code>(你好)<br><img data-src="/images/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC_%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E6%8B%BC_%E5%85%B3%E9%97%AD.png"></li>
+<li><strong>开启</strong>自动扩展到全拼 输入<code>ni&#39;hc</code>(你好)<br><img data-src="/images/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC_%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E6%8B%BC_%E5%BC%80%E5%90%AF.png"></li>
+</ol>
+<p>可以看出，当开启自动扩展到全拼时，输入的双拼字母会扩展为全拼，而不是原始的输入值。对于正在记键位的同学可以开启此项有助于提示，熟练后可自行选择开关。</p>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>双拼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微软输入法添加小鹤双拼</title>
+    <url>/tech/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC/</url>
+    <content><![CDATA[<p>微软输入法自带的双拼方案中不包含小鹤方案，需手动添加，有两种方式。</p>
+<h2 id="1-通过注册表添加"><a href="#1-通过注册表添加" class="headerlink" title="1. 通过注册表添加"></a>1. 通过注册表添加</h2><ol>
+<li><code>win</code> + <code>R</code> 输入 <code>regedit</code> 打开 注册表编辑器</li>
+<li>定位至<code>[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS]</code></li>
+<li>右键 新建 &gt; 项<span id="more"></span></li>
+<li>数值名称 <code>UserDefinedDoublePinyinScheme0</code><br>数值数据 <code>小鹤双拼*2*^\*iuvdjhcwfg^xmlnpbksqszxkrltvyovt</code></li>
+<li>保存</li>
+<li>在微软拼音设置中将小鹤双拼设为默认方案</li>
+</ol>
+<h2 id="2-手动设置键映射"><a href="#2-手动设置键映射" class="headerlink" title="2. 手动设置键映射"></a>2. 手动设置键映射</h2><p><img data-src="/images/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC_%E7%BC%96%E8%BE%91%E6%96%B9%E6%A1%88.png" alt="小鹤双拼"></p>
+<hr>
+<blockquote>
+<p><a href="https://flypy.com/pin.html">小鹤官网</a><br><a href="https://api.ihint.me/shuang/">双拼练习</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>双拼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2021新年更新</title>
+    <url>/site-history/2021%E6%96%B0%E5%B9%B4%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<p>恭喜 2020 新手教程毕业，2021 新的试炼开始了！新年快乐~\(≧▽≦)/~！<br>这几天更新了几篇一直在计划中的选题，同时对站点进行了调整。具体包括：</p>
+<ul>
+<li>更换了站点默认的 favicon</li>
+<li>增加了分类目录与标签云<span id="more"></span></li>
+<li>添加了头像</li>
+<li>添加了 Social Links</li>
+<li>增加了关于页</li>
+<li>增加了搜索功能 参考 <a href="https://theme-next.js.org/docs/third-party-services/search-services.html#Local-Search">Local-Search</a></li>
+<li>百度、Google 搜索添加 提交 sitemap.xml</li>
+<li>设置自定义字体</li>
+<li>其他 next 主题调整</li>
+</ul>
+<p>目前站点的功能已基本完善，设置基本调整完毕，同时贯彻了简约的理念。</p>
+]]></content>
+      <categories>
+        <category>时间之外的往事</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>用CMD计算文件HASH</title>
+    <url>/tech/%E7%94%A8CMD%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6HASH/</url>
+    <content><![CDATA[<p>命令：<strong>certutil -hashfile</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">certutil -hashfile 目标文件 md5</span><br><span class="line">certutil -hashfile 目标文件 sha1</span><br><span class="line">certutil -hashfile 目标文件 sha256</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阿里云轻量应用服务器添加YUM源</title>
+    <url>/tech/%E9%98%BF%E9%87%8C%E4%BA%91%E8%BD%BB%E9%87%8F%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%B7%BB%E5%8A%A0YUM%E6%BA%90/</url>
+    <content><![CDATA[<p>今天由于项目需要新买了一个阿里云服务器，购买的时候没注意到是<strong>轻量应用服务器</strong>而不是<strong>ECS</strong>。<br><img data-src="/images/%E8%BD%BB%E9%87%8F%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8.png"><br>不过买都买了，就当 ECS 用吧。买的时候选择的系统镜像是<code>AliYun Linux</code>。在安装 Nginx 时 Yum 没有找到这个包，原来这个镜像自带的仓库只有 Aliyun.repo。还好我从另一个 ECS 上找到的 epel.repo 包含 Nginx，只要添加这个仓库就可以了，操作并不麻烦。</p>
+<span id="more"></span>
+
+<ol>
+<li><p>新建 epel.repo</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo vi /etc/yum.repos.d/epel.repo</span><br></pre></td></tr></table></figure></li>
+<li><p>添加仓库代码</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">## Note, this file is written by cloud-init on first boot of an instance</span><br><span class="line">## modifications made here will not survive a re-bundle.</span><br><span class="line">## if you wish to make changes you can:</span><br><span class="line">## a.) do the same in user-data</span><br><span class="line">## b.) add sources in &#x2F;etc&#x2F;yum.repos.d&#x2F;</span><br><span class="line">## c.) make changes to template file &#x2F;etc&#x2F;cloud&#x2F;templates&#x2F;sources.list.aliyun.epel.tmpl</span><br><span class="line">###</span><br><span class="line"></span><br><span class="line">[epel]</span><br><span class="line">name&#x3D;Extra Packages for Enterprise Linux 7 - $basearch</span><br><span class="line">baseurl&#x3D;http:&#x2F;&#x2F;mirrors.cloud.aliyuncs.com&#x2F;epel&#x2F;7&#x2F;$basearch</span><br><span class="line">failovermethod&#x3D;priority</span><br><span class="line">enabled&#x3D;1</span><br><span class="line">gpgcheck&#x3D;1</span><br><span class="line">gpgkey&#x3D;http:&#x2F;&#x2F;mirrors.cloud.aliyuncs.com&#x2F;epel&#x2F;RPM-GPG-KEY-EPEL-7</span><br><span class="line"></span><br><span class="line">[epel-debuginfo]</span><br><span class="line">name&#x3D;Extra Packages for Enterprise Linux 7 - $basearch - Debug</span><br><span class="line">baseurl&#x3D;http:&#x2F;&#x2F;mirrors.cloud.aliyuncs.com&#x2F;epel&#x2F;7&#x2F;$basearch&#x2F;debug</span><br><span class="line">failovermethod&#x3D;priority</span><br><span class="line">enabled&#x3D;0</span><br><span class="line">gpgkey&#x3D;http:&#x2F;&#x2F;mirrors.cloud.aliyuncs.com&#x2F;epel&#x2F;RPM-GPG-KEY-EPEL-7</span><br><span class="line">gpgcheck&#x3D;1</span><br><span class="line"></span><br><span class="line">[epel-source]</span><br><span class="line">name&#x3D;Extra Packages for Enterprise Linux 7 - $basearch - Source</span><br><span class="line">baseurl&#x3D;http:&#x2F;&#x2F;mirrors.cloud.aliyuncs.com&#x2F;epel&#x2F;7&#x2F;SRPMS</span><br><span class="line">failovermethod&#x3D;priority</span><br><span class="line">enabled&#x3D;0</span><br><span class="line">gpgkey&#x3D;http:&#x2F;&#x2F;mirrors.cloud.aliyuncs.com&#x2F;epel&#x2F;RPM-GPG-KEY-EPEL-7</span><br><span class="line">gpgcheck&#x3D;1</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<li><p>清空 Yum 缓存</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo yum clean all</span><br></pre></td></tr></table></figure></li>
+<li><p>更新 Yum 缓存</p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">yum makecache</span><br></pre></td></tr></table></figure>
+
+<p> 之后就可以正常安装了</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>aliyun</tag>
+      </tags>
+  </entry>
+</search>
