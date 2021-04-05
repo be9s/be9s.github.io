@@ -27,7 +27,7 @@ tags:
 
 > 推荐直接重装 Node.js，这也是 [npm 官网](https://www.npmjs.com/get-npm) 推荐的安装/升级方式
 
-### 正常升级方式
+### 一般升级
 
 1. 检查当前 npm 版本
 
@@ -41,9 +41,9 @@ tags:
    npm install npm@latest -g
    ```
 
-   > 如果报错 `npm ERR! code EEXIST` 先执行 `npm cache clean -f` 并再次尝试。如果没有解决请选择备选升级方式
+   > 如果报错 `npm ERR! code EEXIST` 先执行 `npm cache clean -f` 并再次尝试。如果没有解决请使用备选升级方式
 
-### 备选升级方式
+### 备选方式
 
 1. 将 Node.js 安装目录下的 `\node_modules\npm` 文件夹复制到另外的位置 如：`D:\npmTemp`
 2. 删除 Node.js 安装目录下的 `npm npm.cmd npx npx.cmd` 文件 和 `\node_modules\npm` 文件夹
