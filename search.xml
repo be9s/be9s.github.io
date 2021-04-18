@@ -80,25 +80,6 @@
       </tags>
   </entry>
   <entry>
-    <title>TIM清空消息列表</title>
-    <url>/tech/TIM%E6%B8%85%E7%A9%BA%E6%B6%88%E6%81%AF%E5%88%97%E8%A1%A8/</url>
-    <content><![CDATA[<p>TIM 是 QQ 的办公版，去除了很多无用的功能。然而在最新版(3.3.0)的 TIM 中却没有清空消息列表的功能，并且在清空消息记录后消息列表中会出现大量的空对话。<br>目前为止，手动清空消息列表的方法为：</p>
-<ol>
-<li>关闭 TIM</li>
-<li>删除<code>C:\Users\xxx\Documents\Tencent Files\QQ号\Info.db</code>文件</li>
-</ol>
-<blockquote>
-<p>再次登录时，TIM 会自动同步少量消息，手动删除即可。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术爆炸</category>
-      </categories>
-      <tags>
-        <tag>tim</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>npm更改全局位置与换源</title>
     <url>/tech/npm%E6%9B%B4%E6%94%B9%E5%85%A8%E5%B1%80%E4%BD%8D%E7%BD%AE%E4%B8%8E%E6%8D%A2%E6%BA%90/</url>
     <content><![CDATA[<blockquote>
@@ -133,6 +114,25 @@
       </tags>
   </entry>
   <entry>
+    <title>TIM清空消息列表</title>
+    <url>/tech/TIM%E6%B8%85%E7%A9%BA%E6%B6%88%E6%81%AF%E5%88%97%E8%A1%A8/</url>
+    <content><![CDATA[<p>TIM 是 QQ 的办公版，去除了很多无用的功能。然而在最新版(3.3.0)的 TIM 中却没有清空消息列表的功能，并且在清空消息记录后消息列表中会出现大量的空对话。<br>目前为止，手动清空消息列表的方法为：</p>
+<ol>
+<li>关闭 TIM</li>
+<li>删除<code>C:\Users\xxx\Documents\Tencent Files\QQ号\Info.db</code>文件</li>
+</ol>
+<blockquote>
+<p>再次登录时，TIM 会自动同步少量消息，手动删除即可。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>tim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>微软双拼之自动扩展到全拼</title>
     <url>/tech/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC%E4%B9%8B%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E6%8B%BC/</url>
     <content><![CDATA[<p>在微软拼音的双拼模式下，有一个<del>不为人知</del>设置项——自动扩展到全拼</p>
@@ -151,19 +151,6 @@
       </categories>
       <tags>
         <tag>双拼</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用CMD计算文件HASH</title>
-    <url>/tech/%E7%94%A8CMD%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6HASH/</url>
-    <content><![CDATA[<p>命令：<strong>certutil -hashfile</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">certutil -hashfile 目标文件 md5</span><br><span class="line">certutil -hashfile 目标文件 sha1</span><br><span class="line">certutil -hashfile 目标文件 sha256</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技术爆炸</category>
-      </categories>
-      <tags>
-        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
@@ -189,6 +176,19 @@
       </categories>
       <tags>
         <tag>双拼</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用CMD计算文件HASH</title>
+    <url>/tech/%E7%94%A8CMD%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6HASH/</url>
+    <content><![CDATA[<p>命令：<strong>certutil -hashfile</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">certutil -hashfile 目标文件 md5</span><br><span class="line">certutil -hashfile 目标文件 sha1</span><br><span class="line">certutil -hashfile 目标文件 sha256</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
