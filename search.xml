@@ -133,40 +133,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2021新年更新</title>
-    <url>/site-history/2021%E6%96%B0%E5%B9%B4%E6%9B%B4%E6%96%B0/</url>
-    <content><![CDATA[<p>恭喜 2020 新手教程毕业，2021 新的试炼开始了！新年快乐~\(≧▽≦)/~！<br>这几天更新了几篇一直在计划中的选题，同时对站点进行了调整。具体包括：</p>
-<ul>
-<li>更换了站点默认的 favicon</li>
-<li>增加了分类目录与标签云<span id="more"></span></li>
-<li>添加了头像</li>
-<li>添加了 Social Links</li>
-<li>增加了关于页</li>
-<li>增加了搜索功能 参考 <a href="https://theme-next.js.org/docs/third-party-services/search-services.html#Local-Search">Local-Search</a></li>
-<li>百度、Google 搜索添加 提交 sitemap.xml</li>
-<li>设置自定义字体</li>
-<li>其他 next 主题调整</li>
-</ul>
-<p>目前站点的功能已基本完善，设置基本调整完毕，同时贯彻了简约的理念。</p>
-]]></content>
-      <categories>
-        <category>时间之外的往事</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>用CMD计算文件HASH</title>
-    <url>/tech/%E7%94%A8CMD%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6HASH/</url>
-    <content><![CDATA[<p>命令：<strong>certutil -hashfile</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">certutil -hashfile 目标文件 md5</span><br><span class="line">certutil -hashfile 目标文件 sha1</span><br><span class="line">certutil -hashfile 目标文件 sha256</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技术爆炸</category>
-      </categories>
-      <tags>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>微软输入法添加小鹤双拼</title>
     <url>/tech/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC/</url>
     <content><![CDATA[<p>微软输入法自带的双拼方案中不包含小鹤方案，需手动添加，有两种方式。</p>
@@ -211,6 +177,40 @@
       <tags>
         <tag>双拼</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>用CMD计算文件HASH</title>
+    <url>/tech/%E7%94%A8CMD%E8%AE%A1%E7%AE%97%E6%96%87%E4%BB%B6HASH/</url>
+    <content><![CDATA[<p>命令：<strong>certutil -hashfile</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">certutil -hashfile 目标文件 md5</span><br><span class="line">certutil -hashfile 目标文件 sha1</span><br><span class="line">certutil -hashfile 目标文件 sha256</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2021新年更新</title>
+    <url>/site-history/2021%E6%96%B0%E5%B9%B4%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<p>恭喜 2020 新手教程毕业，2021 新的试炼开始了！新年快乐~\(≧▽≦)/~！<br>这几天更新了几篇一直在计划中的选题，同时对站点进行了调整。具体包括：</p>
+<ul>
+<li>更换了站点默认的 favicon</li>
+<li>增加了分类目录与标签云<span id="more"></span></li>
+<li>添加了头像</li>
+<li>添加了 Social Links</li>
+<li>增加了关于页</li>
+<li>增加了搜索功能 参考 <a href="https://theme-next.js.org/docs/third-party-services/search-services.html#Local-Search">Local-Search</a></li>
+<li>百度、Google 搜索添加 提交 sitemap.xml</li>
+<li>设置自定义字体</li>
+<li>其他 next 主题调整</li>
+</ul>
+<p>目前站点的功能已基本完善，设置基本调整完毕，同时贯彻了简约的理念。</p>
+]]></content>
+      <categories>
+        <category>时间之外的往事</category>
+      </categories>
   </entry>
   <entry>
     <title>阿里云轻量应用服务器添加YUM源</title>
@@ -277,6 +277,72 @@
       <tags>
         <tag>aliyun</tag>
         <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一道JS前端面试题</title>
+    <url>/tech/%E8%AE%B0%E4%B8%80%E9%81%93JS%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</url>
+    <content><![CDATA[<p>前几天参加字节的前端实习面试，面试官出了一道很有意思的题，考察了 JS 的变量提升、对象构造器与原型继承等知识，综合性较强。面试时没有弄明白，面试结束后又看了好久，终于理清楚了，在此进行整理。下面是题目，问对应的输出结果：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">1</span>);</span><br><span class="line">  &#125;;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">this</span>;</span><br><span class="line">&#125;</span><br><span class="line">Foo.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;;</span><br><span class="line">Foo.prototype.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">3</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">4</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getName</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">5</span>);</span><br><span class="line">&#125;</span><br><span class="line">Foo.getName();</span><br><span class="line">getName();</span><br><span class="line">Foo().getName();</span><br><span class="line">getName();</span><br><span class="line"><span class="keyword">new</span> Foo.getName();</span><br><span class="line"><span class="keyword">new</span> Foo().getName();</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h2 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h2><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo.getName(); <span class="comment">// 2</span></span><br><span class="line">getName(); <span class="comment">// 4</span></span><br><span class="line">Foo().getName(); <span class="comment">// 1 或 TypeError</span></span><br><span class="line">getName(); <span class="comment">// 1</span></span><br><span class="line"><span class="keyword">new</span> Foo.getName(); <span class="comment">// 2</span></span><br><span class="line"><span class="keyword">new</span> Foo().getName(); <span class="comment">// 3</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>我们可以先将这段代码分为定义与输出两个部分。<br>定义部分：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">1</span>);</span><br><span class="line">  &#125;;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">this</span>;</span><br><span class="line">&#125;</span><br><span class="line">Foo.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;;</span><br><span class="line">Foo.prototype.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">3</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">4</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getName</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">5</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>输出部分：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo.getName();</span><br><span class="line">getName();</span><br><span class="line">Foo().getName();</span><br><span class="line">getName();</span><br><span class="line"><span class="keyword">new</span> Foo.getName();</span><br><span class="line"><span class="keyword">new</span> Foo().getName();</span><br></pre></td></tr></table></figure>
+
+<h3 id="变量提升"><a href="#变量提升" class="headerlink" title="变量提升"></a>变量提升</h3><p>首先是本题的第一个考察点<a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Hoisting"><strong>变量提升</strong></a>。<br>由此可以将定义部分改写成：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> getName;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getName</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">5</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">1</span>);</span><br><span class="line">  &#125;;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">this</span>;</span><br><span class="line">&#125;</span><br><span class="line">Foo.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;;</span><br><span class="line">Foo.prototype.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">3</span>);</span><br><span class="line">&#125;;</span><br><span class="line">getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">4</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h3 id="分析定义部分"><a href="#分析定义部分" class="headerlink" title="分析定义部分"></a>分析定义部分</h3><p>对改写后的定义部分进行分析</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> getName; <span class="comment">// 定义全局变量 getName</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getName</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">5</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>第二行，由于变量<code>getName</code>已被定义，不再重复定义，将变量<code>getName</code>赋值为函数。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义函数 Foo</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Foo</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 注意 非 this.getName，此处为全局变量 getName 赋值</span></span><br><span class="line">  getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="number">1</span>);</span><br><span class="line">  &#125;;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">this</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>注意函数的返回值<code>this</code>，当函数被<code>new</code>关键字调用时，<code>this</code>指向新对象；当作为函数调用时<code>this</code>指向<a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Global_object">全局对象</a>，在 node 环境中为<code>global</code>，在浏览器中为<code>window</code>。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">2</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>函数在 JS 中是 Function 对象，此处为对象<code>Foo</code>定义了一个成员方法<code>getName</code>。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo.prototype.getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">3</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>为对象构造器<code>Foo()</code>定义原型继承的方法<code>getName</code>。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">getName = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="number">4</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>为变量<code>getName</code>赋值。</p>
+<h3 id="产生输出过程"><a href="#产生输出过程" class="headerlink" title="产生输出过程"></a>产生输出过程</h3><p>输出部分：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo.getName();</span><br><span class="line">getName();</span><br><span class="line">Foo().getName();</span><br><span class="line">getName();</span><br><span class="line"><span class="keyword">new</span> Foo.getName();</span><br><span class="line"><span class="keyword">new</span> Foo().getName();</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo.getName();</span><br></pre></td></tr></table></figure>
+
+<p>将<code>Foo</code>作为对象，调用其<code>getName()</code>成员方法，11 行定义（改写后），输出 2。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">getName();</span><br></pre></td></tr></table></figure>
+
+<p>调用函数<code>getName()</code>，17 行赋值，输出 4。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">Foo().getName();</span><br></pre></td></tr></table></figure>
+
+<p>此处的输出会由于运行环境而有所不同，首先<code>Foo()</code>作为函数被调用，全局变量<code>getName</code>被赋新值，返回<code>this</code>。在浏览器环境下，<code>this</code>-&gt;<code>window</code>，<code>window.getName()</code>，输出 1。在 node 环境下其返回值<code>this</code>-&gt;<code>global</code>。注意到 node 中的全局变量不作为全局对象的成员，所以调用<code>global.getName()</code>产生<code>Uncaught TypeError: Foo(...).getName is not a function</code>错误。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">getName();</span><br></pre></td></tr></table></figure>
+
+<p><code>getName()</code>在 6 行赋值，输出 1。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">new</span> Foo.getName();</span><br></pre></td></tr></table></figure>
+
+<p><code>Foo.getName()</code>无返回值，<code>new</code>为干扰项，输出 2。</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">new</span> Foo().getName();</span><br></pre></td></tr></table></figure>
+
+<p>新对象通过原型继承的方法<code>getName()</code>，14 行定义，输出 3。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>纵观全部代码，共有 3 处变量名为<code>getName</code>，分别为全局变量，<code>Foo</code>对象的成员方法以及 通过对象构造器<code>Foo()</code>原型继承的方法。只要分清这 3 个同名的变量，输出就迎刃而解了。</p>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>面试</tag>
+        <tag>Javascript</tag>
       </tags>
   </entry>
 </search>

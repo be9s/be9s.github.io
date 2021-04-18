@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://be9s.github.io/tech/%E8%AE%B0%E4%B8%80%E9%81%93JS%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    
+    <lastmod>2021-04-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://be9s.github.io/tech/%E9%98%BF%E9%87%8C%E9%95%9C%E5%83%8F%E7%AB%99%E5%8D%87%E7%BA%A7-%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</loc>
     
     <lastmod>2021-04-05</lastmod>
@@ -95,7 +102,7 @@
 
   <url>
     <loc>https://be9s.github.io/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -103,63 +110,77 @@
   
   <url>
     <loc>https://be9s.github.io/tags/hexo/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/next/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/node/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/npm/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/tim/</loc>
-    <lastmod>2021-04-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://be9s.github.io/tags/cmd/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/%E5%8F%8C%E6%8B%BC/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://be9s.github.io/tags/cmd/</loc>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/aliyun/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://be9s.github.io/tags/%E9%9D%A2%E8%AF%95/</loc>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://be9s.github.io/tags/Javascript/</loc>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -168,14 +189,14 @@
   
   <url>
     <loc>https://be9s.github.io/categories/site-history/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://be9s.github.io/categories/tech/</loc>
-    <lastmod>2021-04-05</lastmod>
+    <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
