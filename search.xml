@@ -133,31 +133,6 @@
       </tags>
   </entry>
   <entry>
-    <title>微软输入法添加小鹤双拼</title>
-    <url>/tech/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC/</url>
-    <content><![CDATA[<p>微软输入法自带的双拼方案中不包含小鹤方案，需手动添加，有两种方式。</p>
-<h2 id="1-通过注册表添加"><a href="#1-通过注册表添加" class="headerlink" title="1. 通过注册表添加"></a>1. 通过注册表添加</h2><ol>
-<li><code>win</code> + <code>R</code> 输入 <code>regedit</code> 打开 注册表编辑器</li>
-<li>定位至<code>[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS]</code></li>
-<li>右键 新建 &gt; 项<span id="more"></span></li>
-<li>数值名称 <code>UserDefinedDoublePinyinScheme0</code><br>数值数据 <code>小鹤双拼*2*^\*iuvdjhcwfg^xmlnpbksqszxkrltvyovt</code></li>
-<li>保存</li>
-<li>在微软拼音设置中将小鹤双拼设为默认方案</li>
-</ol>
-<h2 id="2-手动设置键映射"><a href="#2-手动设置键映射" class="headerlink" title="2. 手动设置键映射"></a>2. 手动设置键映射</h2><p><img data-src="/images/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC_%E7%BC%96%E8%BE%91%E6%96%B9%E6%A1%88.png" alt="小鹤双拼"></p>
-<hr>
-<blockquote>
-<p><a href="https://flypy.com/pin.html">小鹤官网</a><br><a href="https://api.ihint.me/shuang/">双拼练习</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术爆炸</category>
-      </categories>
-      <tags>
-        <tag>双拼</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>微软双拼之自动扩展到全拼</title>
     <url>/tech/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC%E4%B9%8B%E8%87%AA%E5%8A%A8%E6%89%A9%E5%B1%95%E5%88%B0%E5%85%A8%E6%8B%BC/</url>
     <content><![CDATA[<p>在微软拼音的双拼模式下，有一个<del>不为人知</del>设置项——自动扩展到全拼</p>
@@ -189,6 +164,31 @@
       </categories>
       <tags>
         <tag>cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微软输入法添加小鹤双拼</title>
+    <url>/tech/%E5%BE%AE%E8%BD%AF%E8%BE%93%E5%85%A5%E6%B3%95%E6%B7%BB%E5%8A%A0%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC/</url>
+    <content><![CDATA[<p>微软输入法自带的双拼方案中不包含小鹤方案，需手动添加，有两种方式。</p>
+<h2 id="1-通过注册表添加"><a href="#1-通过注册表添加" class="headerlink" title="1. 通过注册表添加"></a>1. 通过注册表添加</h2><ol>
+<li><code>win</code> + <code>R</code> 输入 <code>regedit</code> 打开 注册表编辑器</li>
+<li>定位至<code>[HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputMethod\Settings\CHS]</code></li>
+<li>右键 新建 &gt; 项<span id="more"></span></li>
+<li>数值名称 <code>UserDefinedDoublePinyinScheme0</code><br>数值数据 <code>小鹤双拼*2*^\*iuvdjhcwfg^xmlnpbksqszxkrltvyovt</code></li>
+<li>保存</li>
+<li>在微软拼音设置中将小鹤双拼设为默认方案</li>
+</ol>
+<h2 id="2-手动设置键映射"><a href="#2-手动设置键映射" class="headerlink" title="2. 手动设置键映射"></a>2. 手动设置键映射</h2><p><img data-src="/images/%E5%BE%AE%E8%BD%AF%E5%8F%8C%E6%8B%BC_%E7%BC%96%E8%BE%91%E6%96%B9%E6%A1%88.png" alt="小鹤双拼"></p>
+<hr>
+<blockquote>
+<p><a href="https://flypy.com/pin.html">小鹤官网</a><br><a href="https://api.ihint.me/shuang/">双拼练习</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>双拼</tag>
       </tags>
   </entry>
   <entry>
@@ -241,35 +241,6 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">yum makecache</span><br></pre></td></tr></table></figure></li>
 </ol>
 <p>之后就可以正常安装了</p>
-]]></content>
-      <categories>
-        <category>技术爆炸</category>
-      </categories>
-      <tags>
-        <tag>aliyun</tag>
-        <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>阿里镜像站升级 正确打开方式</title>
-    <url>/tech/%E9%98%BF%E9%87%8C%E9%95%9C%E5%83%8F%E7%AB%99%E5%8D%87%E7%BA%A7-%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<p><a href="https://mirrors.aliyun.com/">阿里镜像站</a>是国内较为常用的镜像，可用性不错，但最近一段时间打开其页面都只显示 <strong>“镜像站正在升级中…”</strong>。不过升级的只是引导站，各个镜像仓库是可以正常使用的，下面以最常用的 CentOS 7 镜像仓库演示。</p>
-<ol>
-<li><p>浏览器打开 <a href="http://mirrors.aliyun.com/repo/">http://mirrors.aliyun.com/repo/</a></p>
-</li>
-<li><p>复制 Centos-7.repo 的链接：<a href="http://mirrors.aliyun.com/repo/Centos-7.repo">http://mirrors.aliyun.com/repo/Centos-7.repo</a></p>
-<span id="more"></span></li>
-<li><p>在 SSH 中运行命令</p>
-<p>下载仓库源</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo curl http:&#x2F;&#x2F;mirrors.aliyun.com&#x2F;repo&#x2F;Centos-7.repo -o &#x2F;etc&#x2F;yum.repos.d&#x2F;CentOS-Base.repo</span><br></pre></td></tr></table></figure>
-
-<p>清空 Yum 缓存</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo yum clean all</span><br></pre></td></tr></table></figure>
-
-<p>更新 Yum 缓存</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">yum makecache</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>当然你也可以选择<a href="https://mirrors.tuna.tsinghua.edu.cn/">清华镜像站</a>，据说有教育网加持（IPv6）</p>
 ]]></content>
       <categories>
         <category>技术爆炸</category>
@@ -343,6 +314,35 @@
       <tags>
         <tag>面试</tag>
         <tag>Javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>阿里镜像站升级 正确打开方式</title>
+    <url>/tech/%E9%98%BF%E9%87%8C%E9%95%9C%E5%83%8F%E7%AB%99%E5%8D%87%E7%BA%A7-%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<p><a href="https://mirrors.aliyun.com/">阿里镜像站</a>是国内较为常用的镜像，可用性不错，但最近一段时间打开其页面都只显示 <strong>“镜像站正在升级中…”</strong>。不过升级的只是引导站，各个镜像仓库是可以正常使用的，下面以最常用的 CentOS 7 镜像仓库演示。</p>
+<ol>
+<li><p>浏览器打开 <a href="http://mirrors.aliyun.com/repo/">http://mirrors.aliyun.com/repo/</a></p>
+</li>
+<li><p>复制 Centos-7.repo 的链接：<a href="http://mirrors.aliyun.com/repo/Centos-7.repo">http://mirrors.aliyun.com/repo/Centos-7.repo</a></p>
+<span id="more"></span></li>
+<li><p>在 SSH 中运行命令</p>
+<p>下载仓库源</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo curl http:&#x2F;&#x2F;mirrors.aliyun.com&#x2F;repo&#x2F;Centos-7.repo -o &#x2F;etc&#x2F;yum.repos.d&#x2F;CentOS-Base.repo</span><br></pre></td></tr></table></figure>
+
+<p>清空 Yum 缓存</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo yum clean all</span><br></pre></td></tr></table></figure>
+
+<p>更新 Yum 缓存</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">yum makecache</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>当然你也可以选择<a href="https://mirrors.tuna.tsinghua.edu.cn/">清华镜像站</a>，据说有教育网加持（IPv6）</p>
+]]></content>
+      <categories>
+        <category>技术爆炸</category>
+      </categories>
+      <tags>
+        <tag>aliyun</tag>
+        <tag>服务器</tag>
       </tags>
   </entry>
 </search>
